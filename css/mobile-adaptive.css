@@ -1,0 +1,197 @@
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .idc-head .idc-container {
+        margin-top: 15px;
+    }
+    .idc-head .idc-content {
+        padding-bottom: 105px;
+        padding-left: 35px;
+    }
+    .idc-about .idc-container {
+        padding-top: 95px;
+    }
+    .idc-gallery {
+        margin-top: 28px;
+    }
+    .idc-img {
+        margin-top: 12px;
+    }
+    .idc-footer .idc-container {
+        margin-bottom: 15px;
+    }
+    .idc-footer .idc-content {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    .idc-footer-title {
+        margin: 0 auto;
+        max-width: 484px;
+    }
+}
+
+@media (max-width: 699px) {
+    .idc-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* ******head**** */
+    .idc-head .idc-container {
+        position: relative;
+    }
+
+    .idc-head .idc-content {
+        position: relative;
+        padding-bottom: 0;
+        padding-left: 15px;
+        height: 63.2vw;
+
+        /* background-image: url(../img/head-bg-mobile.png); */
+    }
+    .idc-bg {
+        display: none;
+    }
+    .idc-mobile-bg {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+    .idc-head-title {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        left: 15px;
+        font-size: 6.2vw;
+        line-height: 7.5vw;
+        max-width: 80vw;
+        /* font-size: 20px; */
+        /* line-height: 24px; */
+        margin-top: 0;
+    }
+    .idc-head .idc-verdana-14 {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 8px;
+        max-width: 150px;
+    }
+    /* ******about**** */
+    .idc-about .idc-container {
+        padding-top: 73px;
+    }
+    .idc-about .idc-title {
+        max-width: 150px;
+    }
+    .idc-woman {
+        width: 24vw;
+        top: 24px;
+        right: 15px;
+    }
+    .idc-about .idc-text-1 {
+        margin-left: 0;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 110%;
+        color: #000000;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 12px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 60px;
+    }
+
+    /* *****pluses*** */
+    .idc-pluses .idc-container {
+        padding-bottom: 60px;
+        padding-top: 10px;
+    }
+    .idc-pluses .idc-title {
+        max-width: 160px;
+        text-align: left;
+        margin-left: 0;
+    }
+    .idc-man {
+        top: 6px;
+        left: unset;
+        right: 15px;
+        width: 124px;
+    }
+    .idc-pluses-block {
+        margin: 0;
+        max-width: unset;
+        margin-top: 27px;
+    }
+    .idc-pluse .idc-text-1 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .idc-pluse {
+        width: calc(50% - 4px);
+        padding-left: 8px;
+        margin-top: 8px;
+        margin-left: 8px;
+        padding-right: 2px;
+    }
+    /* *****office*** */
+    .idc-office .idc-container {
+        padding-bottom: 60px;
+    }
+    .idc-gallery {
+        margin-top: 20px;
+    }
+    .idc-img {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .idc-img:nth-child(5) {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        margin-top: 20px;
+    }
+    /* ***********************footer****************** */
+    .idc-footer .idc-content {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 47.5vw;
+    }
+    .idc-footer-title {
+        font-size: 6.2vw;
+        line-height: 7.5vw;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        left: 50%;
+        max-width: unset;
+        width: 100%;
+    }
+}
